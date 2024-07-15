@@ -26,7 +26,7 @@ function Navbar() {
         <div className="navbar-end ">
           <div className="flex align-center items-center gap-5">
             <div className="avatar">
-              <p>{a}</p>
+              <p className="avatartex pr-[15px]">{a}</p>
               <div className="ring-primary ring-offset-base-100 w-9 rounded-full ring ring-offset-2">
                 <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
               </div>
