@@ -1,6 +1,6 @@
 .card1 {
     margin-top: 10px;
-    width: 290px;
+    width:290px;
     height: 254px;
     background: #07182E;
     position: relative;
@@ -9,6 +9,8 @@
     place-items: center;
     overflow: hidden;
     border-radius: 20px;
+    padding: 10px;
+    text-align: center;
   }
   
   .card1 h2 {
@@ -20,7 +22,7 @@
   .card1::before {
     content: '';
     position: absolute;
-    width: 200px;
+    width: 100px;
     background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
     height: 150%;
     animation: rotBGimg 3s linear infinite;
